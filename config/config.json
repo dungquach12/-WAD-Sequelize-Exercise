@@ -10,6 +10,7 @@
         "require": true,
         "rejectUnauthorized": false
       }
+    }
   },
   "test": {
     "username": "sequelize_postgres_exercise_user",
@@ -22,6 +23,7 @@
         "require": true,
         "rejectUnauthorized": false
       }
+    }
   },
   "production": {
     "username": "sequelize_postgres_exercise_user",
@@ -34,5 +36,6 @@
         "require": true,
         "rejectUnauthorized": false
       }
+    }
   }
 }
