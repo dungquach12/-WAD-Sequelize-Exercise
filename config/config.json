@@ -3,7 +3,7 @@
     "username": "postgres",
     "password": "postgres",
     "database": "sequelize_exercise",
-    "host": "postgresql://sequelize_postgres_exercise_user:PLTbAlv932mpHSNYhqrD15zQHbWNUWSf@dpg-ct2i9erqf0us739srarg-a/sequelize_postgres_exercise",
+    "host": "0.0.0.0/0s",
     "dialect": "postgres"
   },
   "test": {
