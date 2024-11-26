@@ -4,20 +4,35 @@
     "password": "PLTbAlv932mpHSNYhqrD15zQHbWNUWSf",
     "database": "sequelize_postgres_exercise",
     "host": "dpg-ct2i9erqf0us739srarg-a.singapore-postgres.render.com",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
   },
   "test": {
     "username": "sequelize_postgres_exercise_user",
     "password": "PLTbAlv932mpHSNYhqrD15zQHbWNUWSf",
     "database": "sequelize_postgres_exercise",
     "host": "dpg-ct2i9erqf0us739srarg-a.singapore-postgres.render.com",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
   },
   "production": {
     "username": "sequelize_postgres_exercise_user",
     "password": "PLTbAlv932mpHSNYhqrD15zQHbWNUWSf",
     "database": "sequelize_postgres_exercise",
     "host": "dpg-ct2i9erqf0us739srarg-a.singapore-postgres.render.com",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
   }
 }
