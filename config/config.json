@@ -2,22 +2,22 @@
   "development": {
     "username": "postgres",
     "password": "postgres",
-    "database": "sequelize_exercise",
-    "host": "0.0.0.0/0s",
+    "database": "sequelize-postgres-exercise",
+    "host": "postgresql://sequelize_postgres_exercise_user:PLTbAlv932mpHSNYhqrD15zQHbWNUWSf@dpg-ct2i9erqf0us739srarg-a.singapore-postgres.render.com/sequelize_postgres_exercise",
     "dialect": "postgres"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "postgres",
+    "password": "postgres",
+    "database": "sequelize-postgres-exercise",
+    "host": "postgresql://sequelize_postgres_exercise_user:PLTbAlv932mpHSNYhqrD15zQHbWNUWSf@dpg-ct2i9erqf0us739srarg-a.singapore-postgres.render.com/sequelize_postgres_exercise",
+    "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "postgres",
+    "password": "postgres",
+    "database": "sequelize-postgres-exercise",
+    "host": "postgresql://sequelize_postgres_exercise_user:PLTbAlv932mpHSNYhqrD15zQHbWNUWSf@dpg-ct2i9erqf0us739srarg-a.singapore-postgres.render.com/sequelize_postgres_exercise",
+    "dialect": "postgres"
   }
 }
